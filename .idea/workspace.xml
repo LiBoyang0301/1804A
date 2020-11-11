@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4796e21b-1e99-431a-92f7-710541a1dbd0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository\maven_repository" />
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\repository\maven_repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jtbymBulyAR2a4G0dUkqKPq7M6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/bath-consumer/src/main/java/org/laobai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mongo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\1804A-plus\bath-center\bath-service\src\main\resources" />
+      <recent name="D:\workspace\idea\1804A-plus\bath-center\bath-eureka\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GateWayStarter">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bath-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.laobai.bath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.laobai.bath.EurekaStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bath-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.laobai.bath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.laobai.bath.GateWayStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bath-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.laobai.bath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.laobai.bath.ServiceStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bath-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.laobai.bath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.laobai.bath.WebStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bath-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.laobai.bath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.laobai.bath.ZuulStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceStarter" />
+      <item itemvalue="Spring Boot.EurekaStarter" />
+      <item itemvalue="Spring Boot.WebStarter" />
+      <item itemvalue="Spring Boot.ZuulStarter" />
+      <item itemvalue="Spring Boot.GateWayStarter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GateWayStarter" />
+        <item itemvalue="Spring Boot.WebStarter" />
+        <item itemvalue="Spring Boot.EurekaStarter" />
+        <item itemvalue="Spring Boot.ServiceStarter" />
+        <item itemvalue="Spring Boot.ZuulStarter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4796e21b-1e99-431a-92f7-710541a1dbd0" name="Default Changelist" comment="" />
+      <created>1604626592343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604626592343</updated>
+      <workItem from="1604626594874" duration="4431000" />
+      <workItem from="1604709773598" duration="6504000" />
+      <workItem from="1604888364727" duration="7262000" />
+      <workItem from="1604907805464" duration="14446000" />
+      <workItem from="1604976751608" duration="141000" />
+      <workItem from="1604989786314" duration="514000" />
+      <workItem from="1604995115126" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="0" width="1210" height="1080" key="#EurekaStarter-10086" timestamp="1604712704613">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="395" y="0" width="1210" height="1080" key="#EurekaStarter-10086/63.0.1857.1080@63.0.1857.1080" timestamp="1604712704613" />
+    <state x="626" y="90" width="1210" height="853" key="#EurekaStarter_(1)" timestamp="1604712761207">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="626" y="90" width="1210" height="853" key="#EurekaStarter_(1)/63.0.1857.1080@63.0.1857.1080" timestamp="1604712761207" />
+    <state x="483" y="121" key="#Project_Structure" timestamp="1604995135249">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="483" y="121" key="#Project_Structure/63.0.1857.1080@63.0.1857.1080" timestamp="1604995135249" />
+    <state x="395" y="0" width="1210" height="1080" key="#ServiceStarter_(1)" timestamp="1604890133794">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="395" y="0" width="1210" height="1080" key="#ServiceStarter_(1)/63.0.1857.1080@63.0.1857.1080" timestamp="1604890133794" />
+    <state x="752" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1604912331945">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="752" y="187" key="#com.intellij.ide.util.MemberChooser/63.0.1857.1080@63.0.1857.1080" timestamp="1604912331945" />
+    <state x="659" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604627513864">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="659" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1604627513864" />
+    <state x="712" y="243" key="FileChooserDialogImpl" timestamp="1604940780170">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="712" y="243" key="FileChooserDialogImpl/63.0.1857.1080@63.0.1857.1080" timestamp="1604940780170" />
+    <state width="1238" height="379" key="GridCell.Tab.0.bottom" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.0.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1238" height="379" key="GridCell.Tab.0.center" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.0.center/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1238" height="379" key="GridCell.Tab.0.left" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.0.left/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1238" height="379" key="GridCell.Tab.0.right" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.0.right/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1238" height="379" key="GridCell.Tab.1.bottom" timestamp="1604942026966">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.1.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026966" />
+    <state width="1238" height="379" key="GridCell.Tab.1.center" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.1.center/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1238" height="379" key="GridCell.Tab.1.left" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.1.left/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1238" height="379" key="GridCell.Tab.1.right" timestamp="1604942026965">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1238" height="379" key="GridCell.Tab.1.right/63.0.1857.1080@63.0.1857.1080" timestamp="1604942026965" />
+    <state width="1226" height="332" key="GridCell.Tab.2.bottom" timestamp="1604890975439">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1226" height="332" key="GridCell.Tab.2.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1604890975439" />
+    <state width="1226" height="332" key="GridCell.Tab.2.center" timestamp="1604890975437">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1226" height="332" key="GridCell.Tab.2.center/63.0.1857.1080@63.0.1857.1080" timestamp="1604890975437" />
+    <state width="1226" height="332" key="GridCell.Tab.2.left" timestamp="1604890975437">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1226" height="332" key="GridCell.Tab.2.left/63.0.1857.1080@63.0.1857.1080" timestamp="1604890975437" />
+    <state width="1226" height="332" key="GridCell.Tab.2.right" timestamp="1604890975438">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1226" height="332" key="GridCell.Tab.2.right/63.0.1857.1080@63.0.1857.1080" timestamp="1604890975438" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605064966250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605064966250" />
+    <state x="759" y="310" key="chooseDestDirectoryDialog" timestamp="1604892151788">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="759" y="310" key="chooseDestDirectoryDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1604892151788" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1605060100752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605060100752" />
+    <state x="63" y="181" key="new project wizard" timestamp="1604928572280">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="63" y="181" key="new project wizard/63.0.1857.1080@63.0.1857.1080" timestamp="1604928572280" />
+    <state x="564" y="247" key="run.anything.popup" timestamp="1604929133696">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="564" y="247" key="run.anything.popup/63.0.1857.1080@63.0.1857.1080" timestamp="1604929133696" />
+    <state x="570" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1604937452148">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="570" y="45" width="840" height="1034" key="search.everywhere.popup/63.0.1857.1080@63.0.1857.1080" timestamp="1604937452148" />
+  </component>
+</project>

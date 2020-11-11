@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bath-service" />
+        <module name="bath-consumer" />
+        <module name="bath-zuul" />
+        <module name="bath-eureka" />
+        <module name="bath-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bath-center" options="-parameters" />
+      <module name="bath-consumer" options="-parameters" />
+      <module name="bath-eureka" options="-parameters" />
+      <module name="bath-gateway" options="-parameters" />
+      <module name="bath-service" options="-parameters" />
+      <module name="bath-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

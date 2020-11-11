@@ -1,0 +1,43 @@
+server:
+  port: 12001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: bath-gateway
+  cloud:
+    gateway:
+      routes:
+        # 路由id，可以随意写
+        - id: bath-service
+          # 代理的服务uri
+          # 1) 配置要转发的url
+          #  uri: http://localhost:8081
+          #2）配置要转发的服务；lb表示从eureka中获取具体服务,后面的名字必须是Eureka中注册的服务的名字
+          uri: lb://bath-service
+            # 断言规则
+          predicates:
+            # 路径规则，默认会将路径地址拼到代理服务地址上去请求代理的服务
+            # - Path=/artificer/**
+            - Path=/api/artificer/**
+            # 方法规则：必须同时满足某方法请求，才能匹配该路由规则
+            # - Method=POST,GET
+            #在什么时间之前可用，在2020年3月10日10:53之前可用
+            # - Before=2020-11-09T23:54:00+08:00[Asia/Shanghai]
+            #带有某查询参数: ?id, http://127.0.0.1:12001/artificer/get-by-id?id
+            # - Query=baz
+            # 带有某查询参数，并且必须值是多少 http://127.0.0.1:12001/artificer/get-by-id?id=2
+            # - Query=id,2
+          # 过滤器
+          filters:
+            #自动添加响应头信息AddResponseHeaderGatewayFilterFactory
+            #key和value中间使用英文逗号风格
+            - AddResponseHeader=my-header,bp
+            # 添加请求路径的前缀,转发到具体微服务的时候，自动加上该前置，访问时不要写
+            # - PrefixPath=/artificer
+            #表示过滤1个路径，2表示两个路径，以此类推。即转发时会去掉某段路径，访问还需要有。
+            - StripPrefix=1

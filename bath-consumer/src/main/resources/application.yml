@@ -1,0 +1,28 @@
+#端口号
+server:
+  port: 9091
+spring:
+  application:
+    # 应用的名字，该名字会被注册到注册中心，而且，该名字也是集群名字
+    name: bath-consumer
+#Eureka配置
+eureka:
+  client:
+    # 注册中心服务地址，你要向哪个注册中心注册
+    service-url:
+      defaultZone: http://localhost:10001/eureka/
+    #当前应用是否注册到Eureka注册中心（默认就是true，因此无需配置）
+    #    register-with-eureka: true
+    #是否向Eureka注册中心拉取服务列表（默认就是true，因此无需配置）
+    #    fetch-registry: true
+    #向注册中心拉取列表的时间间隔（默认是30秒）
+#    registry-fetch-interval-seconds: 3
+#  instance:    #续约(租期更新)心跳的间隔时间（默认30秒）
+#    lease-renewal-interval-in-seconds: 3
+#    #服务失效(租期到期)时间 如果从前一次发送心跳时间起，90秒没接受到新的心跳，将剔除服务（默认90秒）
+#    lease-expiration-duration-in-seconds: 9
+  instance:
+    instance-id: bath-consumer
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能

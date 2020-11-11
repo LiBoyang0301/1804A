@@ -1,0 +1,19 @@
+server:
+  port: 11001
+
+eureka:
+  client: # 客户端进行Eureka注册的配置
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+    register-with-eureka: false #可以不注册，但是要拉取
+
+spring:
+  application:
+    name:  bath-zuul
+
+zuul:
+  routes:
+    bath-service: /bath/**
+  ignored-services: "*"
+  prefix: /api
+
